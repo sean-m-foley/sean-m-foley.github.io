@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super Tape</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      clear: both;
+    }
+
+    .makered {
+      color: red;
+    }
+    body {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      padding: 10px 20px;
+      margin: 0 15%;
+      width: auto;
+      box-sizing: border-box;
+    }
+
+    #header {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    #header-img p{
+      font-size: 30px;
+    }
+
+    #main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #nav-bar {
+        display: flex;
+        position: fixed;
+    }
+    
+    .nav-link {
+        display: flex;
+    }
+
+    a:link, a:visited {
+      background-color: white;
+      color: black;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border: solid 1px black;
+      margin: 0 2px;
+    }
+
+    #video {
+      display: flex;
+      margin-bottom: 20px;
+    }
+
+    #form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      margin: 10px 0;
+    }
+
+    #form input {
+      display: block;
+      margin-bottom: 5px;
+    }
+    #form label {
+      margin-bottom: 5px;
+    }
+    #footer {
+      display: flex;
+      justify-content: center;
+    }
+    @media (max-width:799px) {
+      img {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <a href="#header-img" class="nav-link">About</a>
+      <a href="#video" class="nav-link">Video</a>
+      <a href="#email" class="nav-link">Contact</a>
+     </nav>
+    
+     <img src="https://images.unsplash.com/photo-1579702662656-f26205285141?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=800" alt="SuperTabe" id="header-img">
+    
+  </header>
+
+  <main id="main">
+    
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/h1En7kl4iw0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eaque illum cum praesentium aliquam nam officiis sequi. Blanditiis neque vel voluptatum voluptatibus ipsa provident officiis mollitia aperiam soluta id necessitatibus quidem nobis, quas nulla, nemo cum error voluptate aspernatur doloribus odit esse eaque. Numquam quam ipsam incidunt veritatis minus est, eius alias corporis eos explicabo porro animi qui consequatur ex accusamus, obcaecati dolores tempora ipsa quas quae esse sit. Tempora possimus veniam, tempore aliquid dolorum, voluptates minima at perspiciatis est laboriosam, praesentium voluptatibus quis explicabo odit qui tenetur nam. Dolorem, tenetur? Est ab totam saepe quae accusantium iste corporis quam aut aliquid non at impedit placeat voluptatibus atque, perferendis doloribus quos, recusandae accusamus voluptas aliquam unde velit sed. Voluptatum hic tenetur veritatis, quisquam nemo odit totam quia quam eligendi eius repellat maiores temporibus a, iusto odio reiciendis cum explicabo aliquam voluptate molestiae. Corrupti repellat, perferendis quod quas eaque eos quaerat deserunt odio dolore quis! Sed, modi culpa tenetur deserunt ea expedita voluptatem porro animi dolore omnis distinctio vero id! Ipsam distinctio praesentium dignissimos esse voluptate porro sint, quas sequi optio eligendi est obcaecati magnam sunt pariatur tempora! Optio, quisquam voluptatem illo eos dignissimos, et dolores deleniti ipsa autem expedita natus commodi quidem? Modi, sapiente amet distinctio velit sit veniam quae maiores quos nam quis omnis veritatis saepe neque sunt atque ratione provident illum reiciendis in officiis ea quam! Qui, asperiores aut dolorem eos, blanditiis voluptatibus nihil accusamus sapiente odio ipsum dolores optio officia dolor nisi excepturi dignissimos laudantium fugit explicabo?</p>
+    <form action="" id="form">
+      <label for="email">Request More Information:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your Email address here for more info!">
+      <input type="submit" id="submit" name="submit">
+    </form>
+  </main>
+
+  <footer id="footer">
+    <p>Copyright &copy; 2020, Sean M. Foley, All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

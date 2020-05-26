@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      clear: both;
+    }
+
+    body {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 300;
+      font-size: 14px;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      line-height: 1.2rem;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding: 5px;
+      margin: 5px;
+      width: 80vw;
+      box-sizing: border-box;
+    }
+
+    #navbar {
+      display: flex;
+      flex-direction: column;
+      width: 20vw;
+    }
+
+    .nav-link {
+      display: block;
+      padding: 5px;
+      color: black;
+      background: white;
+      border: black solid 1px;
+      border-radius: 5%;
+      margin: 5px 5px;
+    }
+
+    a:link, a:visited {
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: white;
+      border: white solid 1px;
+      background: black;
+    }
+
+    #main-doc {
+      display: flex;
+      flex-direction: column;
+      width: 80vw;
+    }
+
+    .main-section {
+      margin: 10px 20px;
+      padding: 10px 10px;
+    }
+
+    h1 {
+      padding: 10px 20px;
+    }
+
+    h3 {
+      padding: 10px 0;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    code {
+      padding: 5px 0;
+      margin: 40px 0;
+      background: #aaa;
+    }
+
+    p {
+      padding: 10px 0;
+    }
+    @media screen and (max-width: 800px) {
+      #body {
+        display: flex;
+        flex-direction: column;
+      }
+
+      #navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 40vw;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <nav id="navbar">
+    <header>
+      <h1>Random Web Shit</h1>
+    </header>
+    <div id="nav-box">
+      <a href="#How_To_Use_Variables_in_SASS" class="nav-link">How To Use Variables in SASS</a>
+      <a href="#This_Is_A_Flex_Box" class="nav-link">This Is A Flex Box</a>
+      <a href="#Centering_Text_In_Flex" class="nav-link">Centering Text In Flex</a>
+      <a href="#How_To_Change_Fonts" class="nav-link">How To Change Fonts</a>
+      <a href="#Using_Emmet_Tags_To_Quickly_Build_Divs" class="nav-link">Using Emmet Tags To Quickly Build Divs</a>
+    </div>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="How_To_Use_Variables_in_SASS">
+      <header><h3>How To Use Variables in SASS</h3></header>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum corrupti molestias id, quae laudantium velit illum nam, recusandae blanditiis nihil, enim iure ipsum ad! Sed in illum magnam, quia id voluptate iusto unde? Quia ab adipisci perspiciatis laudantium velit aspernatur sapiente temporibus vitae minima facere repellendus pariatur porro hic, a blanditiis quisquam praesentium. Dolorem unde minus deleniti repellat incidunt officiis hic iusto eius, dolore, nobis eaque blanditiis consequuntur ex harum quibusdam eveniet porro exercitationem neque amet commodi nam distinctio. Commodi, quaerat minima. Eos deserunt repellendus distinctio dolores odit incidunt quasi consequuntur temporibus labore totam, illo quibusdam, est aliquam commodi ab esse, sed cum laborum a harum nihil accusamus iste adipisci! Tempora facere, voluptatum eos sed saepe, repudiandae obcaecati nobis molestias voluptate vero quas, laudantium similique delectus perspiciatis placeat repellendus qui aliquid alias nisi itaque! Incidunt similique tenetur molestias, eveniet cumque omnis voluptatem totam nulla ea sit earum nisi iure voluptas accusantium exercitationem quasi doloremque ab aliquam quibusdam voluptatibus ad beatae.</p>
+      <code>
+        $primary-color : #ccc;<br>
+        <br>
+        main {<br>
+          color: $primary-color;<br>
+        }<br>
+      </code>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur possimus beatae odio vitae id perspiciatis debitis, ad placeat saepe. Doloribus impedit obcaecati exercitationem. Asperiores nobis nam, vero ipsam omnis quam animi aspernatur maiores quas totam tenetur eaque est sit. Neque placeat accusamus commodi illum dolorem nesciunt dolore, sint beatae, consequatur, accusantium sequi illo hic laudantium dolor ad voluptates autem libero? Laborum quaerat tempora sequi suscipit, dolore libero repudiandae provident voluptas sint perspiciatis quae ipsa ut maxime nesciunt exercitationem corrupti quis?</p>
+    </section>
+
+    <section class="main-section" id="This_Is_A_Flex_Box">
+      <header>
+        <h3>This Is A Flex Box</h3>
+      </header>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sunt eius officia? Architecto laborum aliquid eos? Exercitationem at dolor quidem voluptatum, veniam error iste autem non similique recusandae optio! Recusandae quo earum itaque dignissimos et atque ad vel necessitatibus! Quaerat incidunt quisquam, nisi ab omnis ipsam explicabo fugit vero modi?</p>
+      <code>
+        display: flex;
+      </code>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro accusamus reiciendis, consequuntur alias, ullam ad nostrum facere beatae saepe ex eveniet ducimus assumenda nihil dolores blanditiis, aperiam ab excepturi magnam atque. Nihil amet non rem minus cupiditate consequatur reiciendis architecto aut explicabo delectus sapiente laborum dignissimos error minima eius veniam, dolor illo totam placeat iste aperiam fugiat nesciunt. Nobis, totam laborum consequatur quos dicta illum aut provident voluptas esse id magni animi quod aliquam, magnam accusantium consequuntur? Adipisci, in itaque!</p>
+    </section>
+
+    <section class="main-section" id="Centering_Text_In_Flex">
+      <header>
+        <h3>Centering Text In Flex</h3>
+      </header>
+      <ul>
+        <li>Determine whether you've used flexs rows or columns in flex-direction property.</li>
+        <li>If you've used rows (default) then use the justify-contents property.</li>
+        <li>If you've used columns use align-items instead.</li>
+        <li>You can specify the values of: left, right, center, and so on.</li>
+        <li>Try not to over-burden the viewer visually with too many items on the screen.</li>
+      </ul>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni suscipit, cumque ullam maxime ipsum doloremque adipisci blanditiis! Perspiciatis at necessitatibus enim eaque sit in qui ullam pariatur ducimus error consequuntur, ut accusantium dolorum repellat sint deserunt eius, quisquam dolorem sequi eligendi officia ex rerum. Quaerat, recusandae quasi architecto tenetur nam odio aliquid quidem impedit iste natus magni nostrum, cum dignissimos expedita? Qui autem quae soluta exercitationem cum. Soluta consectetur quos recusandae vero accusantium explicabo voluptatem earum, distinctio dolores quia molestias error. Modi, at alias soluta delectus molestias esse. Quaerat aliquid consequuntur voluptatum nam, deleniti recusandae. Excepturi illo odio laborum repellat!</p>
+      <code>justify-contents: center;</code>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus cupiditate cumque debitis, fuga iusto dignissimos reiciendis nihil. Deleniti excepturi sed debitis optio repellendus magni ratione animi dolorum blanditiis, fugit illo ab omnis, natus atque ea amet aliquam? Voluptates voluptatum iure animi, officiis quaerat odit harum vitae vel molestias omnis, pariatur corrupti aperiam recusandae incidunt repellendus impedit veritatis, sed tempore cumque nobis dolorem perferendis! Reiciendis, optio ducimus.</p>
+    </section>
+
+    <section class="main-section" id="How_To_Change_Fonts">
+      <header>
+        <h3>How To Change Fonts</h3>
+      </header>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, deleniti sit blanditiis aut incidunt, eum dolor odit nam aliquam, quas molestiae possimus soluta? Perspiciatis, incidunt? Eaque harum sed nesciunt voluptatibus odio mollitia ipsum, est cumque error porro veritatis eius eveniet fuga expedita numquam eum. Quibusdam perspiciatis culpa qui soluta nobis autem velit. Enim esse, laboriosam reprehenderit dolores delectus odio, quis aliquid quia, cumque rerum atque voluptas ut dolore exercitationem? Ipsam sunt accusantium vel dolores voluptatibus molestiae! Voluptas sit magnam eaque aspernatur aliquam. Est natus, tempore maiores sed sequi porro voluptates optio asperiores non commodi adipisci voluptatum mollitia. Deserunt cumque corrupti praesentium, omnis temporibus nesciunt culpa, dicta inventore iste repellendus sint ea blanditiis.</p>
+      <code>font-family: Arial, Helvetica, Sans-Serif;</code>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia neque quos eum voluptates atque suscipit ipsa consequatur cum, hic ratione eaque reprehenderit deserunt a consequuntur ut aliquid voluptas recusandae illo debitis laboriosam. Dolores quaerat id possimus eos sapiente ratione nihil illum eaque reprehenderit nulla adipisci odio veritatis quae quia similique qui, tempore distinctio molestias numquam! Recusandae voluptates qui nisi. Doloremque, ex pariatur. Accusamus inventore tenetur unde veniam corrupti architecto sed et delectus perferendis illo quam, numquam deserunt velit asperiores facilis?</p>
+    </section>
+
+    <section class="main-section" id="Using_Emmet_Tags_To_Quickly_Build_Divs">
+      <header>
+        <h3>Using Emmet Tags To Quickly Build Divs</h3>
+      </header>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, doloribus sunt omnis tenetur illo aliquid ad doloremque nobis libero voluptas beatae hic provident aliquam eius iste corrupti aperiam, ea quam enim sequi. Voluptas, facilis aliquam! Iure odio dicta tenetur ad? Aliquid culpa aut qui cum soluta dolorem minima doloribus reiciendis.</p>
+      <code>type: div#class-name and press(tab)</code>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ad facere vitae aliquam libero aut corrupti est! Rerum inventore placeat fugiat consectetur illum doloremque soluta, reiciendis atque dolores quidem officiis laborum exercitationem qui perspiciatis. Natus iste eligendi vero sint quisquam omnis dolorem laborum similique repellendus, numquam non voluptates soluta impedit neque ullam laboriosam reprehenderit! Perferendis doloribus in recusandae error, pariatur ad obcaecati veritatis facilis eaque dolorem quo voluptas voluptatem quasi nostrum officia? Suscipit soluta consectetur similique, facilis ex quidem neque vel temporibus tenetur explicabo autem odio! Optio id blanditiis provident delectus nobis quasi soluta voluptatum aliquam iste ex laborum, laudantium accusamus.</p>
+    </section>
+
+  </main>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>  
+</body>
+</html>
