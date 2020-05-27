@@ -2,11 +2,10 @@
   margin: 0;
 }
 
-html, body {
-  color: #ddd;
-}
-
-#welcome-section {
-  height: 100vh;
-  background: url('https://images.unsplash.com/photo-1487284122274-e864e9dec2bf?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=1280')no-repeat center center/nocover;
+body {
+  background: url('https://images.unsplash.com/photo-1487284122274-e864e9dec2bf?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=1280%27') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
