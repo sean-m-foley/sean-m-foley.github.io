@@ -42,3 +42,75 @@ body {
   margin-bottom: 30px;
 }
 
+#welcome-section a {
+  color: #fff;
+}
+
+#grid-container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #fff;
+  background: black;
+}
+#blurb {
+  grid-area: 1 / 1 / 2 / 1;
+  padding: 20px;
+  justify-self: center;
+}
+
+#projects {
+  grid-area: 1 / 2 / 2 / 2;
+  padding: 20px;
+  justify-self: center;
+}
+
+#projects a {
+  display: block;
+  border: black 1px solid;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  justify-content: space-between;
+  width: 95%;
+  background-color: #222;
+  border-radius: 5px;
+  padding: 0 20px;
+  margin: 0 10px;
+  color: #fff;
+}
+
+#nav-items a {
+  color: #fff;
+  padding: 0 10px;
+}
+
+#nav-items a:hover {
+  border-bottom: #fff 1px solid;
+}
+
+@media (max-width:800px) {
+  #projects, #blurb {
+    display: flex;
+    flex-direction: column;
+  }
+}
