@@ -1,0 +1,55 @@
+body {
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ddd;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  #quote-box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    background: blue;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: .3em;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 0 1.5em;
+
+    #button-box {
+      display: flex;
+      flex-direction: row;
+      padding: 0.5em;
+      align-items: center;
+      button {
+        width: 100px;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid white;
+        background: #333;
+        color: #ddd;
+      }
+    }
+  }
+}
